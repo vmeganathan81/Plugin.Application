@@ -1,6 +1,9 @@
 ﻿using System.Windows;
 
-namespace DataDrivenMVVM
+/// <summary>
+/// Plugin Application App
+/// </summary>
+namespace Plugin.App
 {
     /// <summary>
     /// Interaction logic for App.xaml

@@ -1,8 +1,8 @@
-﻿using Plugin.Application.Model;
+﻿using Plugin.App.Model;
 using System;
 using System.Windows.Data;
 
-namespace Plugin.Application.Converter
+namespace Plugin.App.Converter
 {
 
     /// <summary>

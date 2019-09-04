@@ -1,12 +1,15 @@
-﻿using Plugin.Application.DataSource;
-using Plugin.Application.Model;
+﻿using Plugin.App.DataSource;
+using Plugin.App.Model;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.CommandWpf;
 using System;
 using System.Collections.ObjectModel;
-using Plugin.Application.EventArgument;
+using Plugin.App.EventArgument;
 
-namespace Plugin.Application.ViewModel
+/// <summary>
+/// ViewModel representation
+/// </summary>
+namespace Plugin.App.ViewModel
 {
     /// <summary>
     /// Initializes a new instance of the LettersViewModel class.

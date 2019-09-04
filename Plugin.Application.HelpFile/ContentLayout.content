@@ -1,13 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Topics>
-  <Topic id="2c7f3e62-920a-4ac7-bfd6-4ed396cdd231" visible="True" isDefault="true" isExpanded="true" isSelected="true" apiParentMode="InsertAfter" title="Version History">
-    <HelpKeywords>
-      <HelpKeyword index="K" term="version, history" />
-    </HelpKeywords>
-    <Topic id="363d50b2-5f96-46f7-8f20-0b317edcd257" visible="True" title="Version 1.0.0.0">
-      <HelpKeywords>
-        <HelpKeyword index="K" term="version, 1.0.0.0" />
-      </HelpKeywords>
-    </Topic>
-  </Topic>
+  <Topic id="fc290ec6-8706-4214-bfac-fffff134ff95" visible="True" isDefault="true" isSelected="true" apiParentMode="InsertAsChild" />
 </Topics>

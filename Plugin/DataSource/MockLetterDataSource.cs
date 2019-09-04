@@ -1,12 +1,15 @@
-﻿using Plugin.Application.DataSource;
-using Plugin.Application.Enumeration;
-using Plugin.Application.EventArgument;
-using Plugin.Application.Model;
+﻿using Plugin.App.DataSource;
+using Plugin.App.Enumeration;
+using Plugin.App.EventArgument;
+using Plugin.App.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Plugin.Application.DataSource
+/// <summary>
+/// Data Source Implementation of Letter
+/// </summary>
+namespace Plugin.App.DataSource
 {
     /// <summary>
     /// Represents Mock data source of letters

@@ -1,8 +1,12 @@
-﻿using Plugin.Application.Model;
+﻿using Plugin.App.Model;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.CommandWpf;
 
-namespace Plugin.Application.ViewModel
+
+/// <summary>
+/// ViewModel representation
+/// </summary>
+namespace Plugin.App.ViewModel
 {
     /// <summary>
     /// Initializes a new instance of the LetterDetailViewModel class.

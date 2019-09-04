@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topics>
+  <Topic id="2dd50d2c-1e1d-4237-aab0-3990bda3ccb2" visible="True" isDefault="true" isExpanded="true" isSelected="true" apiParentMode="InsertAsChild" title="Version History">
+    <HelpKeywords>
+      <HelpKeyword index="K" term="version, history" />
+    </HelpKeywords>
+    <Topic id="856eff58-0953-49b6-8ac0-1945cdf3fe08" visible="True" title="Version 1.0.0.0">
+      <HelpKeywords>
+        <HelpKeyword index="K" term="version, 1.0.0.0" />
+      </HelpKeywords>
+    </Topic>
+  </Topic>
+</Topics>
