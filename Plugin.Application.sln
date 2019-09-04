@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Application", "Plugin\Plugin.Application.csproj", "{A8A4B8B0-F965-4AE9-90D6-1977B58030BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{E50FF405-30EC-4ECC-9778-C8040AB7FB18}"
+	ProjectSection(SolutionItems) = preProject
+		lib\CommonServiceLocator.dll = lib\CommonServiceLocator.dll
+		lib\GalaSoft.MvvmLight.dll = lib\GalaSoft.MvvmLight.dll
+		lib\GalaSoft.MvvmLight.Extras.dll = lib\GalaSoft.MvvmLight.Extras.dll
+		lib\GalaSoft.MvvmLight.Platform.dll = lib\GalaSoft.MvvmLight.Platform.dll
+		lib\System.Windows.Interactivity.dll = lib\System.Windows.Interactivity.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelpFile", "HelpFile", "{0E490B19-6CA0-4AC5-A63F-B0DE2D0DF6CF}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Plugin.Application.HelpFile", "Plugin.Application.HelpFile\Plugin.Application.HelpFile.shfbproj", "{8B381F33-07EE-4A0E-B6D5-B5AC17AB8B0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8A4B8B0-F965-4AE9-90D6-1977B58030BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A4B8B0-F965-4AE9-90D6-1977B58030BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A4B8B0-F965-4AE9-90D6-1977B58030BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A4B8B0-F965-4AE9-90D6-1977B58030BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B381F33-07EE-4A0E-B6D5-B5AC17AB8B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B381F33-07EE-4A0E-B6D5-B5AC17AB8B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B381F33-07EE-4A0E-B6D5-B5AC17AB8B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B381F33-07EE-4A0E-B6D5-B5AC17AB8B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B381F33-07EE-4A0E-B6D5-B5AC17AB8B0A} = {0E490B19-6CA0-4AC5-A63F-B0DE2D0DF6CF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C7EFC42-8BE3-4495-A52F-9004BF6D441E}
+	EndGlobalSection
+EndGlobal

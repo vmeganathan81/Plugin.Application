@@ -1,0 +1,42 @@
+﻿<Window x:Class="Plugin.Application.Views.LettersView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Plugin.Application.Views"
+        mc:Ignorable="d"
+        Title="LettersView" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.25*"></ColumnDefinition>
+                <ColumnDefinition Width="0.75*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.85*"></RowDefinition>
+                    <RowDefinition Height="0.15*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <ListBox Grid.Row="0" ItemsSource="{Binding Letters}" DisplayMemberPath="Name" SelectedItem="{Binding Path=SelectedLetter, Mode=TwoWay}"/>
+                <Button Grid.Row="1" Command="{Binding LoadLettersCommand}" Content="Load Letters"></Button>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.85*"></RowDefinition>
+                    <RowDefinition Height="0.15*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <local:LetterDetailView Grid.Column="1" DataContext="{Binding LetterDetailVM}"></local:LetterDetailView>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                        <ColumnDefinition Width="*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0"  Content="Add"></Button>
+                    <Button Grid.Column="1" Command="{Binding SaveLetterCommand}" Content="Save"></Button>
+                    <Button Grid.Column="2" Command="{Binding RemoveLetterCommand}" Content="Remove"></Button>
+                </Grid>               
+            </Grid>
+        </Grid>
+     </Grid>
+</Window>
