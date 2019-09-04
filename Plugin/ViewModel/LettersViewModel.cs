@@ -1,14 +1,11 @@
-﻿using Plugin.App.DataSource;
-using Plugin.App.Model;
-using GalaSoft.MvvmLight;
+﻿using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.CommandWpf;
+using Plugin.App.DataSource;
+using Plugin.App.EventArgument;
+using Plugin.App.Model;
 using System;
 using System.Collections.ObjectModel;
-using Plugin.App.EventArgument;
 
-/// <summary>
-/// ViewModel representation
-/// </summary>
 namespace Plugin.App.ViewModel
 {
     /// <summary>

@@ -2,9 +2,6 @@
 using Plugin.App.Model;
 using System;
 
-/// <summary>
-/// Data Source Implementation of Letter
-/// </summary>
 namespace Plugin.App.DataSource
 {
     /// <summary>

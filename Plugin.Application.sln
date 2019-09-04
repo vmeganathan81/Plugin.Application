@@ -14,9 +14,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{E50FF405-30E
 		lib\System.Windows.Interactivity.dll = lib\System.Windows.Interactivity.dll
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HelpFile", "HelpFile", "{0E490B19-6CA0-4AC5-A63F-B0DE2D0DF6CF}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{0E490B19-6CA0-4AC5-A63F-B0DE2D0DF6CF}"
 EndProject
-Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Plugin.Application.HelpFile", "Documentation1\Plugin.Application.HelpFile.shfbproj", "{D4539683-54FE-4614-BC1E-D7F06669BA1C}"
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Plugin.Application.HelpFile", "Documentation\Plugin.Application.HelpFile.shfbproj", "{D4539683-54FE-4614-BC1E-D7F06669BA1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

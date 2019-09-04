@@ -1,14 +1,10 @@
-﻿using Plugin.App.DataSource;
-using Plugin.App.Enumeration;
+﻿using Plugin.App.Enumeration;
 using Plugin.App.EventArgument;
 using Plugin.App.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-/// <summary>
-/// Data Source Implementation of Letter
-/// </summary>
 namespace Plugin.App.DataSource
 {
     /// <summary>
@@ -66,7 +62,7 @@ namespace Plugin.App.DataSource
         public void AddLetter(Letter letter)
         {
             letters.Add(letter);
-            OperationCompleted?.Invoke(this, new LetterEventArgs(null,null,OperationType.Read));
+            OperationCompleted?.Invoke(this, new LetterEventArgs(null, null, OperationType.Read));
         }
 
         /// <summary>

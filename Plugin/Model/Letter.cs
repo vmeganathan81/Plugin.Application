@@ -1,7 +1,4 @@
-﻿/// <summary>
-/// Entity Classes
-/// </summary>
-namespace Plugin.App.Model
+﻿namespace Plugin.App.Model
 {
     /// <summary>
     /// Entity class that represents a Letter object

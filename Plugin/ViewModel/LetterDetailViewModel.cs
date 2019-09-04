@@ -1,11 +1,8 @@
-﻿using Plugin.App.Model;
-using GalaSoft.MvvmLight;
+﻿using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.CommandWpf;
+using Plugin.App.Model;
 
 
-/// <summary>
-/// ViewModel representation
-/// </summary>
 namespace Plugin.App.ViewModel
 {
     /// <summary>

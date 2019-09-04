@@ -2,9 +2,6 @@
 using Plugin.App.ViewModel;
 using System.Windows;
 
-/// <summary>
-/// View representation
-/// </summary>
 namespace Plugin.App.Views
 {
     /// <summary>

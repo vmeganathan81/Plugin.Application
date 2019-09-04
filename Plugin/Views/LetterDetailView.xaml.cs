@@ -1,8 +1,5 @@
 ﻿using System.Windows.Controls;
 
-/// <summary>
-/// View representation
-/// </summary>
 namespace Plugin.App.Views
 {
     /// <summary>

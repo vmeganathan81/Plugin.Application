@@ -3,9 +3,6 @@ using Plugin.App.Model;
 using System;
 using System.Collections.Generic;
 
-/// <summary>
-/// EventArgs of Letter Operations
-/// </summary>
 namespace Plugin.App.EventArgument
 {
     /// <summary>

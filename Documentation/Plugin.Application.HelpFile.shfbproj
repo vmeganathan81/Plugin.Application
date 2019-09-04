@@ -39,7 +39,7 @@
     <SdkLinkTarget>Blank</SdkLinkTarget>
     <NamespaceSummaries>
       <NamespaceSummaryItem name="Plugin.App" isDocumented="True">Default namespace for Plugin Application</NamespaceSummaryItem>
-<NamespaceSummaryItem name="Plugin.App.Converter" isDocumented="False" />
+<NamespaceSummaryItem name="Plugin.App.Converter" isDocumented="True">Default namespace for converter used for binding the Views</NamespaceSummaryItem>
 <NamespaceSummaryItem name="Plugin.App.DataSource" isDocumented="True">Default namespace for DataSource</NamespaceSummaryItem>
 <NamespaceSummaryItem name="Plugin.App.Enumeration" isDocumented="True">Default namespace for Enumeration or enum</NamespaceSummaryItem>
 <NamespaceSummaryItem name="Plugin.App.EventArgument" isDocumented="True">Default namespace for Event Arguments for operation (load, add, remove, and update of an object)</NamespaceSummaryItem>

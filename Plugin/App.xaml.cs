@@ -1,8 +1,5 @@
 ﻿using System.Windows;
 
-/// <summary>
-/// Plugin Application App
-/// </summary>
 namespace Plugin.App
 {
     /// <summary>
